@@ -1,0 +1,35 @@
+{
+  "name": "cc-form",
+  "version": "1.0.0",
+  "description": "An interactive credit card form, built in React",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "nodemon ./server.js",
+    "dev": "webpack -w",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bellcd/cc-form.git"
+  },
+  "author": "Christian Bell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bellcd/cc-form/issues"
+  },
+  "homepage": "https://github.com/bellcd/cc-form#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "@babel/core": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "@babel/preset-env": "^7.7.7",
+    "babel-loader": "^8.0.6"
+  }
+}
